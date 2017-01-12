@@ -369,6 +369,7 @@ fi
           EXTRA_CMDLINE="$EXTRA_CMDLINE" \
           SYSTEM_SIZE="$SYSTEM_SIZE" \
           SYSTEM_PART_START="$SYSTEM_PART_START" \
+          PROJECT="$PROJECT" \
           $SCRIPTS/mkimage
       fi
 

@@ -81,7 +81,7 @@ PKG_CONFIGURE_OPTS_TARGET="CC_FOR_BUILD=$HOST_CC \
                            --enable-dri3 \
                            --enable-glx \
                            --disable-osmesa \
-                           --disable-gallium-osmesa \
+                           --enable-gallium-osmesa \
                            --enable-egl --with-egl-platforms=x11,drm \
                            $XA_CONFIG \
                            --enable-gbm \
